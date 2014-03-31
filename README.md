@@ -17,12 +17,12 @@ Following steps are only needed one time
 
 To compile a sass
 
-  gulp
+    gulp
 
 To compile and watch for sass file changes
 
-  gulp watch
+    gulp watch
 
 ### Run python server
 
-  python server.py
+    python server.py
