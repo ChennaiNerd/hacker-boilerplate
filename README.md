@@ -25,4 +25,5 @@ To compile and watch for sass file changes
 
 ### Run python server
 
+    export PYTHONPATH=$(pwd)/server/
     python server.py
