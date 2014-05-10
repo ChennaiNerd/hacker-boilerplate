@@ -23,7 +23,8 @@ To compile and watch for sass file changes
 
     gulp watch
 
-### Run python server
+### Run application
 
     export PYTHONPATH=$(pwd)/server/
+    mongod
     python server.py
