@@ -23,7 +23,7 @@ def get(id=None, query=None, page=1, limit=PAGE_LIMIT):
 
   # Only one entry
   if id:
-    result = collection.find_one({'_id': ObjectId(_id)})
+    result = collection.find_one({'_id': ObjectId(id)})
     return json.dumps(result, default=json_util.default)
 
   # Multiple entries
